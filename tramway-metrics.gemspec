@@ -13,13 +13,11 @@ Gem::Specification.new do |spec|
   spec.version     = Tramway::Metrics::VERSION
   spec.authors     = ["Pavel Kalashnikov"]
   spec.email       = ["kalashnikovisme@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Tramway::Metrics."
-  spec.description = "TODO: Description of Tramway::Metrics."
+  spec.homepage    = "https://github.com/Purple-Magic/tramway-metrics"
+  spec.summary     = "Rails Engine for Google Analytics, Yandex Metrika, etc."
+  spec.description = "Rails Engine for Google Analytics, Yandex Metrika, etc."
   spec.license     = "MIT"
 
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
   else
@@ -30,10 +28,21 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   spec.add_dependency "rails", "~> 6.0.2", ">= 6.0.2.1"
 =======
   spec.add_dependency "rails", "~> 5.1.7"
 >>>>>>> Update to Rails 5.1.7
 
   spec.add_development_dependency "sqlite3"
+=======
+  spec.add_development_dependency "rails", "~> 5.1.7"
+  spec.add_development_dependency 'pg'
+  spec.add_development_dependency 'tramway-admin'
+  spec.add_development_dependency 'tramway-landing'
+  spec.add_development_dependency 'tramway-user'
+  spec.add_development_dependency 'rspec-rails'
+  spec.add_development_dependency 'factory_bot_rails'
+  spec.add_development_dependency 'font-awesome-rails'
+>>>>>>> Create test dummy application
 end

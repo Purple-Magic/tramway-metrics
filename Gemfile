@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 <<<<<<< HEAD
+<<<<<<< HEAD
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 =======
 >>>>>>> Update to Rails 5.1.7
@@ -7,12 +8,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Declare your gem's dependencies in tramway-metrics.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
+=======
+>>>>>>> Create test dummy application
 gemspec
 
-# Declare any dependencies that are still in development here instead of in
-# your gemspec. These might include edge Rails or gems from your path or
-# Git. Remember to move these dependencies to your gemspec before releasing
-# your gem to rubygems.org.
-
-# To use a debugger
-# gem 'byebug', group: [:development, :test]
+gem 'tramway-core', path: '../tramway-core'
+gem 'state_machine', github: 'seuros/state_machine'
