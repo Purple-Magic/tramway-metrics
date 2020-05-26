@@ -5,6 +5,11 @@ Rails.application.config.assets.version = '1.0'
 
 # Add additional assets to the asset load path.
 # Rails.application.config.assets.paths << Emoji.images_path
+<<<<<<< HEAD
+=======
+# Add Yarn node_modules folder to the asset load path.
+Rails.application.config.assets.paths << Rails.root.join('node_modules')
+>>>>>>> Update to Rails 5.1.7
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets

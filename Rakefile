@@ -14,6 +14,14 @@ RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> Update to Rails 5.1.7
 require 'bundler/gem_tasks'
 
 require 'rake/testtask'
@@ -24,4 +32,8 @@ Rake::TestTask.new(:test) do |t|
   t.verbose = false
 end
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update to Rails 5.1.7
 task default: :test

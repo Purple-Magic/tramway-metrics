@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # SQLite. Versions 3.8.0 and up are supported.
+=======
+# SQLite version 3.x
+>>>>>>> Update to Rails 5.1.7
 #   gem install sqlite3
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
